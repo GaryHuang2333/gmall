@@ -9,17 +9,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoginController {
 
     @GetMapping("/admin")
-    public String adminLogin(){
+    public String adminLogin() {
         return "admin login";
     }
 
     @GetMapping("/customer")
-    public String customerLogin(){
+    public String customerLogin() {
         return "customer login";
     }
 
     @GetMapping("/seller")
-    public String sellerLogin(){
+    public String sellerLogin() {
         return "seller login";
     }
 }
