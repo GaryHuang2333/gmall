@@ -10,7 +10,7 @@ public class LoginController {
 
     @GetMapping("/admin")
     public String adminLogin() {
-        return "welcome, you are login";
+        return "welcome back ";
     }
 
     @GetMapping("/customer")
